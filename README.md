@@ -2,6 +2,7 @@
 A Ten Year CHD Risk Score study on Framingham Hear Dataset using multiple machine learning techniques
 - [jupyter notebook - Over Sampling](https://ndesai187.github.io/assignment_2_ndes8735_syntheticSampling.html)
 - [jupyter notebook - Under Sampling](https://ndesai187.github.io/assignment_2_ndes8735_underSampling.html)
+- My solo project as part of study unit for Master of Data Science.
 
 ## Table of contents
 
