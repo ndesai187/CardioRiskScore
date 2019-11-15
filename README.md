@@ -63,7 +63,8 @@ The following approach was taken during the study:
   <i>Oversampling Model Comparison</i>
 </p>
 
-
+</p>
+</p>
 
 <p align="center">
   <img src="undersampling_model_compare.png" width="80%" alt="unders">
