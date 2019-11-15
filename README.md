@@ -3,13 +3,13 @@ A Ten Year CHD Risk Score study on Framingham Hear Dataset using multiple machin
 - [jupyter notebook - Over Sampling](https://ndesai187.github.io/assignment_2_ndes8735_syntheticSampling.html)
 - [jupyter notebook - Under Sampling](https://ndesai187.github.io/assignment_2_ndes8735_underSampling.html)
 
-## table of contents
+## Table of contents
 
 - [Goal](#goal)
 - [Heatmap](#heatmap)
-- [Predictor Imbalance](#classimbalance)
-- [Sampling Techniques](#samplingtechniques)
-- [Modeling Approach](#modellingapproach)
+- [Predictor Imbalance](#class%20imbalance)
+- [Sampling Techniques](#sampling%20techniques)
+- [Modeling Approach](#modelling%20approach)
 - [Results](#results)
 
   
