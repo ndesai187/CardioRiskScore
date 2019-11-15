@@ -1,7 +1,7 @@
 # CardioRiskScore
 A Ten Year CHD Risk Score study on Framingham Hear Dataset using multiple machine learning techniques
-[jupyter notebook - Over Sampling](https://ndesai187.github.io/assignment_2_ndes8735_syntheticSampling.html)
-[jupyter notebook - Under Sampling](https://ndesai187.github.io/assignment_2_ndes8735_underSampling.html)
+- [jupyter notebook - Over Sampling](https://ndesai187.github.io/assignment_2_ndes8735_syntheticSampling.html)
+- [jupyter notebook - Under Sampling](https://ndesai187.github.io/assignment_2_ndes8735_underSampling.html)
 
 ## table of contents
 
@@ -62,6 +62,8 @@ The following approach was taken during the study:
   <br/>
   <i>Oversampling Model Comparison</i>
 </p>
+
+
 
 <p align="center">
   <img src="undersampling_model_compare.png" width="80%" alt="unders">
