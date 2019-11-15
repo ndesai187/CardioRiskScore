@@ -6,7 +6,7 @@ As per the World Health Organization report, an estimated 18 million people died
 
 Framingham dataset contains number of features such as Diabetes, BP Medications, Glucose levels, and age etc. It also has a Ten Year Cardiovascular Heart Disease score (CHD) for selected patients. Our study focuses on a question:
 
-1. Can we successfully predict a patients risk for contracting cardio vascular disease based on their vitals such as Diabetes condition, BP Medications, Glucose levels, and age etc?
+- Can we successfully predict a patients risk for contracting cardio vascular disease based on their vitals such as Diabetes condition, BP Medications, Glucose levels, and age etc?
 
 ## Heatmap
 <p align="center">
@@ -19,15 +19,15 @@ Framingham dataset contains number of features such as Diabetes, BP Medications,
 - The number of positive cases of risk score are far lower than negative cases.
 - Due to class imbalance, we cannot rely on a generic accuracy reading to measure model effectiveness. The negative cases are 85% of samples, and thus a simply assigning negative value to all test sample can give us 85% accuracy. To avoid this fallacy, we will use f1-score, precision and recall measurement to evaluate our model.
 
-i) True Positive – A patient with no CHD risk tagged with score 0.
-ii) True Negative – A patient with CHD risk tagged with score 1.
-iii) False Positive/False negative – A patient misclassified with CHD score.
+  - True Positive – A patient with no CHD risk tagged with score 0.
+  - True Negative – A patient with CHD risk tagged with score 1.
+  - False Positive/False negative – A patient misclassified with CHD score.
 
 ## Sampling Techniques
 1. Under sampling: This method will make sure than we have equal samples of positive and Negative cases to train and test from actual dataset.
 2. Over sampling: This method creates synthetic positive cases to equalize training samples for modeling. We will use SMOTE python library in our modeling to model using over sampling. It defers from under sampling in two ways:
-i) The actual training samples are much more in case of synthetic sampling.
-ii) The synthetic sampling "generates" training data from existing samples. It doesn't represent actual samples and may not give desired results.
+  - The actual training samples are much more in case of synthetic sampling.
+  - The synthetic sampling "generates" training data from existing samples. It doesn't represent actual samples and may not give desired results.
 
 ## Modelling Approach
 The following models were implemented and cross checked against the benchmark logistic regression :
