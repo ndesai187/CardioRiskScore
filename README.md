@@ -10,7 +10,7 @@ Framingham dataset contains number of features such as Diabetes, BP Medications,
 
 ## Heatmap
 <p align="center">
-  <img src="doc/heatmap.png" width="60%" alt="heatmap">
+  <img src="feature_heatmap.png" width="60%" alt="heatmap">
   <br/>
   <i>Feature Heatmap for Framingham Heart Dataset</i>
 </p>
@@ -26,6 +26,7 @@ Framingham dataset contains number of features such as Diabetes, BP Medications,
 ## Sampling Techniques
 1. Under sampling: This method will make sure than we have equal samples of positive and Negative cases to train and test from actual dataset.
 2. Over sampling: This method creates synthetic positive cases to equalize training samples for modeling. We will use SMOTE python library in our modeling to model using over sampling. It defers from under sampling in two ways:
+
   - The actual training samples are much more in case of synthetic sampling.
   - The synthetic sampling "generates" training data from existing samples. It doesn't represent actual samples and may not give desired results.
 
