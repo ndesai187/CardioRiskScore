@@ -7,9 +7,9 @@ A Ten Year CHD Risk Score study on Framingham Hear Dataset using multiple machin
 
 - [Goal](#goal)
 - [Heatmap](#heatmap)
-- [Predictor Imbalance](#class%20imbalance)
-- [Sampling Techniques](#sampling%20techniques)
-- [Modeling Approach](#modelling%20approach)
+- [Predictor Imbalance](#classimbalance)
+- [Sampling Techniques](#samplingtechniques)
+- [Modeling Approach](#modellingapproach)
 - [Results](#results)
 
   
@@ -27,7 +27,7 @@ Framingham dataset contains number of features such as Diabetes, BP Medications,
   <i>Feature Heatmap for Framingham Heart Dataset</i>
 </p>
 
-## Class Imbalance
+## Class Imbalance <a name="classimbalance"></a>
 - The number of positive cases of risk score are far lower than negative cases.
 - Due to class imbalance, we cannot rely on a generic accuracy reading to measure model effectiveness. The negative cases are 85% of samples, and thus a simply assigning negative value to all test sample can give us 85% accuracy. To avoid this fallacy, we will use f1-score, precision and recall measurement to evaluate our model.
 
