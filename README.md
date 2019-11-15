@@ -35,14 +35,14 @@ Framingham dataset contains number of features such as Diabetes, BP Medications,
   - True Negative – A patient with CHD risk tagged with score 1.
   - False Positive/False negative – A patient misclassified with CHD score.
 
-## Sampling Techniques
+## Sampling Techniques <a name="samplingtechniques"></a>
 1. Under sampling: This method will make sure than we have equal samples of positive and Negative cases to train and test from actual dataset.
 2. Over sampling: This method creates synthetic positive cases to equalize training samples for modeling. We will use SMOTE python library in our modeling to model using over sampling. It defers from under sampling in two ways:
 
   - The actual training samples are much more in case of synthetic sampling.
   - The synthetic sampling "generates" training data from existing samples. It doesn't represent actual samples and may not give desired results.
 
-## Modelling Approach
+## Modelling Approach <a name="modellingapproach"></a>
 The following models were implemented and cross checked against the benchmark logistic regression :
 1. Classification using Random Forest
 2. Decision Trees with Extreme Gradient Boosting (XGBoost)
